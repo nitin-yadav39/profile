@@ -1,0 +1,62 @@
+<!DOCTYPE html>d
+<html>
+<head>
+  <title>Basic HTML Form</title>
+</head>
+<body style="font-family: Arial, sans-serif; padding: 20px;">
+
+  <h2>Sign Up Form</h2>
+
+  <form action="#" method="post">
+    
+    
+    <label for="name">Username:</label><br>
+    <input type="text" id="name" name="name" placeholder="words must in lowercase" required><br><br>
+
+   
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+   
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="Number">Number:</label>
+    <input type="number" name="age" min="1" max="100"><br><br>
+     
+    <label for="date&time">Date & Time:</label><br>
+    <input type="date" name="dob">
+    <input type="time" name="meeting_time">
+    <input type="datetime-local" name="event"><br><br>
+     
+
+    <label for="country">Country:</label>
+    <select name="country">
+    <option value="india">India</option>
+    <option value="usa">USA</option>
+    <option value="uk">UK</option>
+    </select><br><br>
+
+
+
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+   
+    <label for="message">Your Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+
+ 
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    <button type="button">Click Me</button>
+
+
+  </form>
+
+</body>
+</html>
